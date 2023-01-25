@@ -2,12 +2,12 @@
 
 import stackModule
 
-mystack = stack.getStack()
+mystack = stackModule.getStack()
 
 for item in range(1, 5):
-    stack.push(mystack, item)
+    stackModule.push(mystack, item)
     print('Pushing', item, 'on stack')
 
-while not stack.isEmpty(mystack):
-    item = stack.pop(mystack)
+while not stackModule.isEmpty(mystack):
+    item = stackModule.pop(mystack)
     print('Popping', item, 'from stack')
