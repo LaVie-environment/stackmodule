@@ -1,5 +1,4 @@
-# Palindrome Checker Program
-
+#! /usr/bin/env python3
 import stackModule
 
 # welcome
@@ -8,7 +7,7 @@ print('(Enter return to exit)')
 
 # init
 char_stack = stackModule.getStack()
-empty string = ''
+empty_string = " "
 
 # get string from user
 chars = input('Enter string to check: ')
